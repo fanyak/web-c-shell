@@ -18,12 +18,14 @@ module.exports = function(config) {
       "node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js",
     // 'test/test.js',
      { pattern: "**/test.mjs", type: "module", included: true },
+     { pattern: "**/*.utils.js", type: "module", included: false },
      { pattern: "**/*.mjs", type: "module", included: false },
     ],
 
 
     // list of files / patterns to exclude
     exclude: [
+      'test.utils.js',
     ],
 
 

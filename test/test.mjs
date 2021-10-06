@@ -1,4 +1,5 @@
 import { AppDrawer } from "../index.mjs";
+import { TestUtils } from "./test.utils.js"
 
 describe('Array', function() {
   describe('#indexOf()', function() {
